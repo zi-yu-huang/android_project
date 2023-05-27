@@ -32,22 +32,18 @@ class MoonRiseData (
             data class Time(
                 @JsonProperty("Date")
                 val Date: String,
-                @JsonProperty("BeginCivilTwilightTime")
-                val BeginCivilTwilightTime: String,
-                @JsonProperty("SunRiseTime")
-                val SunRiseTime: String,
-                @JsonProperty("SunRiseAZ")
-                val SunRiseAZ: String,
-                @JsonProperty("SunTransitTime")
-                val SunTransitTime: String,
-                @JsonProperty("SunTransitAlt")
-                val SunTransitAlt: String,
-                @JsonProperty("SunSetTime")
-                val SunSetTime: String,
-                @JsonProperty("SunSetAZ")
-                val SunSetAZ: String,
-                @JsonProperty("EndCivilTwilightTime")
-                val EndCivilTwilightTime: String,
+                @JsonProperty("MoonRiseTime")
+                val MoonRiseTime: String,
+                @JsonProperty("MoonRiseAZ")
+                val MoonRiseAZ: String,
+                @JsonProperty("MoonTransitTime")
+                val MoonTransitTime: String,
+                @JsonProperty("MoonTransitAlt")
+                val MoonTransitAlt: String,
+                @JsonProperty("MoonSetTime")
+                val MoonSetTime: String,
+                @JsonProperty("MoonSetAZ")
+                val MoonSetAZ: String,
             )
 
         }
